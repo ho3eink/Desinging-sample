@@ -1,0 +1,151 @@
+html{
+  fontsize:18px;
+}
+
+.header{
+background-image: url("../images/index11.jpg");
+background-repeat:no-repeat;
+background-position: center;
+background-size: cover;
+padding:5%;
+font-family: "Quicksand";
+text-align: center;
+font-weight:500;
+}
+
+.colors{
+  border: .11rem  solid skyblue;
+  font-family: Quicksand;
+}
+
+.color-specific{
+  max-width: 100%;
+  text-align: center;
+  position: relative;
+
+}
+
+.scrollable-parent{
+  position: fixed;
+  overflow: scroll;
+  top: 0;
+  left: 0;
+  width: 35%;
+  height: 100%;
+  border: .11rem solid skyblue;
+
+
+}
+
+.scrollable{
+  margin-left: .3rem;
+  font-family: Heebo;
+
+}
+.non-scrollable {
+  position: relative;
+  left: 35%;
+  width: 65%;
+  margin-left: .3rem;
+}
+
+
+
+.header h1{
+  color:rgba(255, 255, 255, 0.7);
+}
+
+.colors h2 {
+text-align: center;
+font-family: Quicksand;
+opacity: .7;
+}
+
+.fonts h6{
+  display: inline;
+}
+.fonts h2{
+  opacity: .7;
+  text-align: center;
+ font-family: Quicksand;
+}
+.colors li {
+  display: inline-block;
+  height:10%;
+  width:30%;
+  text-align: center;
+  padding: 12%;
+  max-width: 6rem;
+  max-height: 1rem;
+  margin:.51%;
+  overflow:hidden;
+
+}
+ul {
+  margin: 12%;
+}
+#gray{
+  background-color: gray;
+
+
+}
+#black{
+  background-color: black;
+  color:white;
+
+
+
+}
+#skyblue{
+  background-color: skyblue;
+
+}
+#blue{
+  background-color: blue;
+
+}
+#deepblue{
+  background-color: rgba(0,0,255,0.9);
+
+}
+#one{
+  font-family: "Quicksand";
+  font-weight:300;
+}
+#two{
+  font-family: "Quicksand";
+  font-weight:500;
+}
+#three{
+  font-family: "Quicksand";
+  font-weight:700;
+}
+#four{
+  font-family: "Heebo";
+  font-weight:300;
+}
+#five{
+  font-family: "Heebo";
+  font-weight:900;
+}
+@media only screen and (max-width:400px){
+  .scrollable-parent{
+    display:none;
+  }
+  .non-scrollable{
+    width:100%;
+    left: 0;
+    min-width: 200px;
+  }
+
+  .colors li {
+    display: block;
+    margin-bottom: .1rems ;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  ul {
+    margin:0;
+  }
+}
